@@ -2,18 +2,21 @@ package day_2024223;
 
 public class Round {
     //state
-    double r1;
-    double pi=3.14;
+    double r;
+    private static double pi = 3.14;
 
     //构造方法
-    public Round(double r2) {
-        r1=r2;
+    public Round(double r) {
+        this.r=r;
         System.out.println("自行添加的有参构造");
     }
 
     //behavior
     public double area(){
-        return r1*r1*pi;
+        return r*r*pi;
     }
 
+    public double perimeter(){
+        return (this.r+r)*2;
+    }
 }
