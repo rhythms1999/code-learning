@@ -11,7 +11,7 @@ public class BinarySearch {
     int last = arr.length-1;
     int mid = (first+last)/2;
     Scanner scan = new Scanner(System.in);
-    System.out.println("输入你要搜寻的数字");
+    System.out.println("输入你要搜寻的数字（整数）");
     int flag = scan.nextInt();
 
     boolean NotFound = true;
