@@ -1,6 +1,11 @@
 package day240200_winter_holiday_homework;
 
 import java.util.Arrays;
+/**
+ * 排序算法
+ *   将一串数组（一个列表）中的元素（整数，数字，字符串等）按某种顺序（增大，减小，字典顺序等）重新排列。
+ * <a href="https://visualgo.net/zh/sorting?slide=1">sorting</a>
+ */
 
 public class BubbleSort {
      public static void main(String[] args) {
