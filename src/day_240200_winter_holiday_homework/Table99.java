@@ -1,4 +1,4 @@
-package day240200_winter_holiday_homework;
+package day_240200_winter_holiday_homework;
 
 public class Table99 {
     public static void main(String[] args) {

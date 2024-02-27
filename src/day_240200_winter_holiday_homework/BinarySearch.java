@@ -1,4 +1,4 @@
-package day240200_winter_holiday_homework;
+package day_240200_winter_holiday_homework;
 
 import java.util.Scanner;
 
