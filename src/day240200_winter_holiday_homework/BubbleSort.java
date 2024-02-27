@@ -35,5 +35,18 @@ public class BubbleSort {
          System.out.println("经过二轮排序后的数组");
          System.out.println(Arrays.toString(arr));
          System.out.println("------------");
+
+         for (int j = 0;j<arr.length-1;j++){
+             for (int i = 0;i<arr.length-1-j;i++){
+                 if (arr[i]>arr[i+1])
+                 {
+                     temp=arr[i];
+                     arr[i]=arr[i+1];
+                     arr[i+1]=temp;
+                 }
+             }
+         }
+         System.out.println("全体排完序后：");
+         System.out.println(Arrays.toString(arr));
      }
 }
