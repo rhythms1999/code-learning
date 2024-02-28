@@ -1,4 +1,4 @@
-package day_2024222;
+package day_24222;
 
 public class BubbleSort {
     String color;

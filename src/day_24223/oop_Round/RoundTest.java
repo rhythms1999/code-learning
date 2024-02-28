@@ -1,6 +1,4 @@
-package day_2024223.oop_Round;
-
-import day_2024223.oop_Round.Round;
+package day_24223.oop_Round;
 
 public class RoundTest {
     public static void main(String[] args) {
