@@ -7,14 +7,14 @@ public class Test {
         stu1.name = "小黄";
         stu1.age = 18;
 
-        Dog[] onedogs = new Dog[1];
+        Dog[] onedogs = new Dog[1];//创建一个长度为1的Dog数组onedogs
 
         Dog puppy1 = new Dog();
         puppy1.id = "x-Fathion";
         puppy1.color = "黄";
         puppy1.name = "闪电";
 
-        onedogs[0]  = puppy1;
+        onedogs[0]  = puppy1;//将puppy1对象放入onedogs数组的第一个位置
 
         stu1.dogs = onedogs;
 
