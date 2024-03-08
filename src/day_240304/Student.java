@@ -20,10 +20,7 @@ public class Student {
 
     void show(){
         System.out.println("学生(学号" + id + ")的信息：学号=" + id + "、姓名=" + name + "、年龄=" + age);
-        System.out.println("有" + dogs.length + "只狗狗：");
-        for(Dog puppy : dogs){
-            //System.out.println("狗(编号" + puppy.id + ")的信息：编号=" + puppy.id + "、名称=" + puppy.name + "、颜色=" + puppy.color);
-            puppy.show();
+        showDogs();
         }
         /**
          * for(int i = 0;i < dogs.length;i++)
@@ -32,5 +29,12 @@ public class Student {
          * }
          * 这段的意思和   for(Dog puppy : dogs)   其实是相同的
          */
+
+        void showDogs(){
+            System.out.println("有" + dogs.length + "只狗狗：");
+            for(Dog puppy : dogs){
+                puppy.show();
+            }
+        }
     }
-}
+
