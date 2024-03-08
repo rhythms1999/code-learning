@@ -18,6 +18,7 @@ public class Dog {
 
     //behavior
     void show() {
+
         System.out.println("狗(编号" + id + ")的信息：编号=" + id + "、名称=" + name + "、颜色=" + color);
     }
 }

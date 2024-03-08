@@ -22,7 +22,8 @@ public class Student {
         System.out.println("学生(学号" + id + ")的信息：学号=" + id + "、姓名=" + name + "、年龄=" + age);
         System.out.println("有" + dogs.length + "只狗狗：");
         for(Dog puppy : dogs){
-            System.out.println("狗(编号" + puppy.id + ")的信息：编号=" + puppy.id + "、名称=" + puppy.name + "、颜色=" + puppy.color);
+            //System.out.println("狗(编号" + puppy.id + ")的信息：编号=" + puppy.id + "、名称=" + puppy.name + "、颜色=" + puppy.color);
+            puppy.show();
         }
         /**
          * for(int i = 0;i < dogs.length;i++)
