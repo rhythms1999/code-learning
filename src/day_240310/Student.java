@@ -10,4 +10,7 @@ public class Student {
         System.out.println("-------------");
     }
     //behavior
+    public static Student getInstance(){
+        return instance;
+    }
 }
