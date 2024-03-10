@@ -3,7 +3,7 @@ package day_240310;
 public class Student {
     //state
     String name;
-    static Student student = new Student();
+    static Student instance = new Student();
 
     private Student() {
 
