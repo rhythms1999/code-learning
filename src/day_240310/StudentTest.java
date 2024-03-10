@@ -14,6 +14,7 @@ public class StudentTest {
         //   2. 在类的内部 -> 内部哪里？
         //        - state -> Student student = new Student();
         //        - behavior
-        Student student = new Student();
+        Student student = Student.student;
+        System.out.println(student);
     }
 }
