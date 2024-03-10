@@ -2,7 +2,7 @@ package day_240310;
 
 public class Student {
     String name;
-    public Student() {
+    private Student() {
         System.out.println("-------------");
     }
 
