@@ -18,5 +18,9 @@ public class StudentTest {
         System.out.println(student);
         //   3. 进一步，验证在外部多次调用，还是不是同一个对象
         //   4. 进一步优化，改名
+        //   5. 进一步优化，怎么让 instance 的值不被改变
+        //   6. 进一步优化，引出 final 关键字
+        //      类似于 pi
+        System.out.println(Math.PI);
     }
 }
