@@ -2,15 +2,18 @@ package day_240312;
 
 public class Table {
     //state
-    private static final Table deskinstance = new Table();
+    private static Table deskinstance;
 
     //constructor
-    private Table(){
+    private Table() {
         System.out.println("构造器调用");
     }
 
     //behavior
-    public static Table getDeskinstance(){
+    public static Table getDeskinstance() {
+//        if (deskinstance == null) {
+        deskinstance = new Table();
+//        }
         return deskinstance;
     }
 
