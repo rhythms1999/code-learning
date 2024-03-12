@@ -11,9 +11,9 @@ public class Table {
 
     //behavior
     public static Table getDeskinstance() {
-//        if (deskinstance == null) {
-//        deskinstance = new Table();
-//        }
+        if (deskinstance == null) {
+        deskinstance = new Table();
+        }
         return deskinstance;
     }
 
