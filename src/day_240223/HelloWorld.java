@@ -1,4 +1,4 @@
-package day_24223;
+package day_240223;
 
 public class HelloWorld {
     public static void main(String[] args) {
