@@ -36,14 +36,13 @@ public class Student {
     }
 
     public Student(int id, String name) {
-        this.id = id;
+        this(id);
         this.name = name;
         System.out.println("3");
     }
 
     public Student(int id, String name, int age) {
-        this.id = id;
-        this.name = name;
+        this(id, name);
         this.age = age;
         System.out.println("4");
     }
