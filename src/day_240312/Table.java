@@ -2,7 +2,7 @@ package day_240312;
 
 public class Table {
     //state
-    static Table deskinstance = new Table();
+    private static final Table deskinstance = new Table();
 
     //constructor
     private Table(){
@@ -10,5 +10,8 @@ public class Table {
     }
 
     //behavior
+    public static Table getDeskinstance(){
+        return deskinstance;
+    }
 
 }
