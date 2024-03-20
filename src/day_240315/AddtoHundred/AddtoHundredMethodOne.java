@@ -1,4 +1,4 @@
-package day_240315;
+package day_240315.AddtoHundred;
 
 public class AddtoHundredMethodOne {
     public static void main(String[] args) {

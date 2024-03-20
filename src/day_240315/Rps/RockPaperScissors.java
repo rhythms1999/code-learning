@@ -1,4 +1,4 @@
-package day_240315;
+package day_240315.Rps;
 
 import java.util.Random;
 import java.util.Scanner;
