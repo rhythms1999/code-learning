@@ -11,10 +11,7 @@ public class RockPaperScissors {
         System.out.println("石头剪刀布！（注意首字母大写）开始：");
         String input = scanner.next();
 
-        Random computer = new Random();
-        int computernumber = computer.nextInt(3) + 1;
-        System.out.println("电脑出的是:");
-        System.out.println(game[computernumber - 1]);
+        int computernumber = getComputernumber(game);
 
         if (input.equals("Rock")) {
             if (computernumber == 1) {
@@ -24,8 +21,7 @@ public class RockPaperScissors {
             } else {
                 System.out.println("你赢了！");
             }
-        }
-        if (input.equals("Paper")) {
+        } else if (input.equals("Paper")) {
             if (computernumber == 1) {
                 System.out.println("你赢了！");
             } else if (computernumber == 2) {
@@ -33,8 +29,7 @@ public class RockPaperScissors {
             } else {
                 System.out.println("你输咯...");
             }
-        }
-        if (input.equals("Scissors")) {
+        } else if (input.equals("Scissors")) {
             if (computernumber == 1) {
                 System.out.println("你输咯...");
             } else if (computernumber == 2) {
@@ -42,10 +37,17 @@ public class RockPaperScissors {
             } else {
                 System.out.println("平局 0.0");
             }
-        }
-        else {
+        } else {
             System.out.println("非法字符串！");
         }
+    }
+
+    private static int getComputernumber(String[] game) {
+        Random computer = new Random();
+        int computernumber = computer.nextInt(3) + 1;
+        System.out.println("电脑出的是:");
+        System.out.println(game[computernumber - 1]);
+        return computernumber;
     }
 }
 
