@@ -3,48 +3,30 @@ package day_240303.e3;
 import java.util.Arrays;
 
 public class Test {
-        public static void main(String[] args) {
-            // 20
-            Student[] students = new Student[20];
-            for (int i = 1; i <= 20; i++) {
-                Student student = new Student();
-                student.number = i;
-                student.state = (int)(Math.random() * 6 + 1);
-                student.score = (int)(Math.random() * 101);
+    public static void main(String[] args) {
+        Student[] students = new Student[20];
+        for (int i = 1; i <= 20; i++) {
+            Student student = new Student();
+            student.state = (int) (Math.random() * 6 + 1);
+            student.score = (int) (Math.random() * 101);
+            student.number = i;
 
-                students[i-1] = student;
-            }
-
-            // 问题一
-            for (Student student : students) {
-                if (student.state == 3) {
-                    System.out.println(student);
-                }
-            }
-
-            System.out.println("=== === ===");
-
-            // 问题二
-            // ref: BubbleSort
-            System.out.println("排序之前：" + Arrays.toString(students));
-
-            for (int i = 0; i < students.length - 1; i++) {
-                boolean swapped = false;
-                for (int j = 0; j < (students.length - 1) - i; j++) {
-                    if (students[j].score > students[j+1].score) {
-                        Student temp = students[j];
-                        students[j] = students[j+1];
-                        students[j+1] = temp;
-                        //System.out.println("进行了一次交换的动作：" + Arrays.toString(students));
-                        swapped = true;
-                    }
-                }
-                if (!swapped) {
-                    break;
-                }
-                //System.out.println("=== === ===");
-            }
-
-            System.out.println("排序之后：" + Arrays.toString(students));
+            students[i - 1] = student;
         }
+
+        int temp;
+
+        for (int j = 0; j < students.length - 1; j++) {
+            for (int i = 0; i < students.length - 1 - j; i++) {
+                if (students[i].score > students[i + 1].score) {
+                    temp = students[i].score;
+                    students[i] = students[i + 1];
+                    students[i + 1].score = temp;
+                }
+            }
+        }
+        System.out.println("全体排完序后：");
+        System.out.println(Arrays.toString(students));
     }
+
+}

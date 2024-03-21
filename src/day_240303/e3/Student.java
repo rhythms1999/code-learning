@@ -7,7 +7,7 @@ public class Student {
     public int score;
 
     @Override
-    public String toString() {
+    public String toString(){
         return "Student{" +
                 "number=" + number +
                 ", state=" + state +
