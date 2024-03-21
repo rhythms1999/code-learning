@@ -1,4 +1,6 @@
-package day_240303;
+package day_240303.e1;
+
+import day_240303.e1.Student;
 
 public class StudentTest {
     public static void main(String[] args) {
@@ -12,7 +14,7 @@ public class StudentTest {
         s2.name = "小王";
         s2.age = 22;
 
-        System.out.println(s1.name+":"+s1.age+"岁\t学号:"+s1.id);
-        System.out.println(s2.name+":"+s2.age+"岁\t学号:"+s2.id);
+        s1.show();
+        s2.show();
     }
 }
