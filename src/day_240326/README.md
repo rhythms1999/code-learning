@@ -51,3 +51,12 @@
   <input type="email" placeholder="请输入邮箱地址" id="email" size="25"/>
   </pre>
 - ![img.png](img/Input.png)
+
+
+### 四.
+- --
+    <span></span>仅对包裹内容生效
+<span style="background-color: aqua;">蓝色</span>
+- --
+    <div></div>包裹对整行生效
+<div style="background-color: aqua;">蓝色</div>
