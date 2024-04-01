@@ -31,3 +31,10 @@
 ### 注释
 - //:单行注释（ctrl+/）
 - /*...*/:多行注释（ctrl+shift+/）
+
+### 联系到gitee
+- 已经在idea上创建好文件，后续在gitee上建立仓库，然后将仓库与自己的文件联系起来
+
+![git-step1.png](img%2Fgit-step1.png)
+![git-step2.png](img%2Fgit-step2.png)
+![git-step3.png](img%2Fgit-step3.png)
