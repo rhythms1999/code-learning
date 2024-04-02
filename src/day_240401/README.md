@@ -26,13 +26,14 @@
 
 - java工作流程
 ![img.png](img/javaworks.png)
+![howjavaworks.png](img/howjavaworks.png)
 
 - --
 ### 注释
 - //:单行注释（ctrl+/）
 - /*...*/:多行注释（ctrl+shift+/）
 
-### 联系到gitee
+### 将本地文件联系到gitee
 - 已经在idea上创建好文件，后续在gitee上建立仓库，然后将仓库与自己的文件联系起来
 
 ![git-step1.png](img%2Fgit-step1.png)
