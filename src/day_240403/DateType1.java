@@ -40,7 +40,7 @@ public class DateType1 {
         System.out.println(c7);
 
         // boolean 常用于条件判断
-        boolean flag = true;
+        boolean flag = true;// or false
 
     }
 }
