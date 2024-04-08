@@ -3,6 +3,7 @@
 - true为a，false为b
 
 ![img.png](img/sanyuanyunsuan.png)
+
 ![img.png](img/breakout.png)
 
 ### break、continue、以及 break to any loop
@@ -12,8 +13,10 @@
 ![img.png](img/continue.png)
 - 3.给想要跳出的的循环层次命名，break +所命名即可跳出所命名的循环
 ![img.png](img/break_to_any_loop.png)
+- 结果:
 
-![img.png](img/result.png)
+- ![img.png](img/result.png)
+
 
 ### 数组
 - 同一数组中存放的数据:
