@@ -7,7 +7,7 @@ public class ArrayBasic {
         String[] name = new String[]{"张三","李四","王五","周八","吴六","郑九","蔡二"};
 
         Random random = new Random();
-        int randomSelect = random.nextInt(7);
+        int randomSelect = random.nextInt(name.length);
 
         System.out.println(name[randomSelect]);
     }
