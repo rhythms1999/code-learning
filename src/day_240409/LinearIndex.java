@@ -9,7 +9,7 @@ public class LinearIndex {
 
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
-                System.out.println("找到了目标数字:" + target + ",它处于第" + (i + 1) + "个位置");
+                System.out.println("找到了目标数字:" + target + ",它处于第" + (i + 1) + "个 位置");
                 found = true;
                 break;
             }
