@@ -32,13 +32,12 @@ public class Student {
             }
         }
 
-        int t;
         for (int j = 1; j <= students.length - 1; j++) {
             for (int i = 0; i < students.length - j; i++) {
                 if (students[i].score > students[i + 1].score) {
-                    t = students[i].score;
-                    students[i].score = students[i + 1].score;
-                    students[i + 1].score = t;
+                    Student another = students[i];
+                    students[i] = students[i + 1];
+                    students[i + 1] = another;
                 }
             }
         }
